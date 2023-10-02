@@ -6,7 +6,7 @@ export default function WhoApply() {
     return(
     <div className="whoapply">
         <h1>Who Should Apply?</h1>
-        <div className="empty">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+        <div className="empty">Quark Festival Ambassadors should be enthusiastic, passionate individuals who are genuinely excited about Quark's events, competitions, and talks. They need to be adept at utilizing social media for promotion, possess excellent communication skills, and maintain a friendly and approachable demeanor. Reliability and responsibility are crucial traits, as they represent Quark and should be punctual in their duties. Knowledge about Quark's offerings, networking abilities, and a strong commitment to their role are also essential qualities for prospective ambassadors.</div>
     </div>
     )
 }

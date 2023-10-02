@@ -30,32 +30,32 @@ const navigate = useNavigate();
             <ul className={hamMenu?'ham-menu-active':(bigscreen?'ham-menu-inactive':'ham-menu-invisible')}>
                             <div className={hamMenu?"hamCont":""}>
                             <li>
-                                <a className="navbar-links" href="/#">Home</a>
+                                <a className="navbar-links" href="/#home">Home</a>
                             </li>
                             </div>
                             <div className={hamMenu?"hamCont":""}>
                             <li>
-                                <a className="navbar-links" href="/#">About</a>
+                                <a className="navbar-links" href="/#about">About</a>
                             </li>
                             </div>
                             <div className={hamMenu?"hamCont":""}>
                             <li>
-                                <a className="navbar-links" href="/#">Benefits</a>
+                                <a className="navbar-links" href="/#benefits">Benefits</a>
                             </li>
                             </div>
                             <div className={hamMenu?"hamCont":""}>
                             <li>
-                                <a className="navbar-links" href="/#">Responsibilities</a>
+                                <a className="navbar-links" href="/#responsibilities">Responsibilities</a>
                             </li>
                             </div>
                             <div className={hamMenu?"hamCont":""}>
                             <li>
-                                <a className="navbar-links" href="/#">Contact Us</a>
+                                <a className="navbar-links" href="/#contact">Contact Us</a>
                             </li>
                             </div>
                             <div className={hamMenu?"hamCont":""}>
                             <li>
-                                <Link to="/register" className="apply-button" href="/#">Apply Now</Link>
+                                <Link to="/register" className="apply-button" href="/#apply">Apply Now</Link>
                                 {/* <button onClick={() => navigate("/register")}>Apply Now</button> */}
                             </li>
                             </div>

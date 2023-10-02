@@ -15,14 +15,14 @@ export default function Home() {
   return (
     <div className="App">
       <Navbar />
-      <Hero />
-      <About />
-     <Thousand />
-      <WhyApply />
-      <Roles />
-      <WhoApply />
-      <Contact />
-      <WithLove />
+      <section id="hero"><Hero /></section>
+      <section id="about"><About /></section>
+      <section id="thousand"><Thousand /></section>
+      <section id="benefits"><WhyApply /></section>
+      <section id="love"><WithLove /></section>
+      <section id="roles"><Roles /></section>
+      <section id="responsibilities"><WhoApply /></section>
+      <section id="contact"><Contact /></section>
     </div>
   );
 }
