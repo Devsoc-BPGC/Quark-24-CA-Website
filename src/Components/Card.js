@@ -15,9 +15,11 @@ export default function Card(props){
 
     return(
     
-        <div style={cardstyle} className={cardclass}>
+        <div style={cardstyle} className={cardclass }>
+            <div className="overlaycard"></div>
             <h3 style={{marginTop:"0"}}>{title}</h3>
             {text}
+            
         </div>
         
     )

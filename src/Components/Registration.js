@@ -25,6 +25,20 @@ export default function Registration(){
     }
 
     function handleSubmit(event){
+        if(formData.name==""||formData.email==""||formData.mobile==""||formData.college==""||formData.personalAddress==""||formData.college==""){
+            alert("Please enter all details and submit.")
+            return
+        }
+        var emailRegex = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+        if(!emailRegex.test(formData.email)){
+            alert("Please enter a valid email.")
+            return
+        }
+        var phoneRegex = /^(\+91-|\+91|0)?\d{10}$/; // Change this regex based on requirement
+        if(!phoneRegex.test(formData.mobile)){
+            alert("Please enter a valid phone number.")
+            return
+        }
         console.log(formData)
         const date = new Date();
         var ISToffSet = 330; //IST is 5:30; i.e. 60*5+30 = 330 in minutes 
@@ -75,6 +89,8 @@ export default function Registration(){
             // Errors are reported there
             console.log(error);
             });
+            navigate("/")
+
     }
 
     return(
@@ -143,8 +159,8 @@ export default function Registration(){
                 />  
             </div>
         </div>
-        <button as="Link" to="" onClick={()=>{handleSubmit
-                                              navigate("/")}}>Submit</button>
+        <button as="Link" to="" onClick={()=>{handleSubmit()
+                                              }}>Submit</button>
     </div>
         )
     }
