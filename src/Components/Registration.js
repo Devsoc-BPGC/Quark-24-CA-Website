@@ -143,7 +143,7 @@ export default function Registration(){
                 />  
             </div>
         </div>
-        <button as="Link" to="" onClick={()=>{handleSubmit
+        <button as="Link" to="" onClick={()=>{handleSubmit()
                                               navigate("/")}}>Submit</button>
     </div>
         )
