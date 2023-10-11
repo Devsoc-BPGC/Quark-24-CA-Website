@@ -7,6 +7,7 @@ import Contact from './Components/Contact.js'
 import Thousand from './Components/Thousand.js'
 import WhoApply from './Components/WhoApply.js';
 import WithLove from './Components/WithLove.js';
+import Sponsors from './Components/Sponsors.js';
 import React from "react";
 import './App.css';
 import Th from "./Components/Thousand.js";
@@ -21,6 +22,7 @@ export default function Home() {
       <section id="benefits"><WhyApply /></section>
       <section id="roles"><Roles /></section>
       <section id="responsibilities"><WhoApply /></section>
+      <section id="sponsors"><Sponsors /></section>
       <section id="contact"><Contact /></section>
       <section id="love"><WithLove /></section>
     </div>
