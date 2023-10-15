@@ -1,11 +1,15 @@
 .marquee {
     margin: 2rem;
     display: flex;
-    height: 4rem;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
 img {
-    height: 4rem;
+    width: 12rem;
+    height: 7rem;
+}
+
+img:hover {
+    cursor: pointer;
 }

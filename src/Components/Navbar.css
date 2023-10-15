@@ -6,6 +6,13 @@
     margin-bottom: 3rem;
 }
 
+.quarklogo{
+    width:6rem;
+    height:5.3rem;
+    margin-left:2%;
+    margin-top:0.5%;
+}
+
 .menu-icon{
     margin: 1.8rem;
 }
@@ -22,7 +29,7 @@
     margin-right: auto;
     width: 100%;
     margin: 1.8rem 0rem ;
-    
+    padding-top: 2%;
 }
 
 .ham-menu-inactive{
@@ -92,6 +99,14 @@ li{
 }
 
 @media screen and (max-width:850px){
+
+    .quarklogo{
+        width: 3rem;
+        height: 3rem;
+        display: block;
+        position: absolute;
+        top: 2px;
+    }
 
     .navbar-links{
         display: flex;
