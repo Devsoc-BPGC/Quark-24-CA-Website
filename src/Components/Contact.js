@@ -14,13 +14,6 @@ export default function Contact(){
             number="+91 7206811204"
             styling="styling"
          />
-         <ContactCard
-            image={img1}
-            name="Anirudh"
-            title="Quark Public Relations Head"
-            number="+91 7206811204"
-            styling="styling"
-         />
          </div>
          </div>
     )

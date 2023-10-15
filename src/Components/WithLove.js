@@ -5,7 +5,7 @@ export default function WithLove() {
     return (
         <div className="aishiteru">
     
-                <a>Made With ❤️ by DevSoc</a>
+                Made With ❤️ by <a href="https://www.devsoc.club">DevSoc</a>
         
         </div>
 
