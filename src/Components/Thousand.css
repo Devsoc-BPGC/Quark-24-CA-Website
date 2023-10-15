@@ -36,3 +36,12 @@
     margin-left: 0%;
     margin-right: 0%;
 }
+
+@media screen and (max-width:850px) {
+    .th{
+        flex-direction: column;
+    }
+    .th img{
+        width: 6rem;
+    }
+}
