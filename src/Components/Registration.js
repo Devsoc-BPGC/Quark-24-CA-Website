@@ -1,6 +1,7 @@
 import React from "react"
 import "./Registration.css"
 import App from "../App.js"
+import { useState } from 'react';
 import { BrowserRouter, Link, Routes, Route, useNavigate } from "react-router-dom";
 
 export default function Registration(){
@@ -12,6 +13,12 @@ export default function Registration(){
         personalAddress:"",
         collegeAddress:"",
     })
+
+        const [selectedGender, setSelectedGender] = useState('');
+      
+        const handleGenderChange = (event) => {
+          setSelectedGender(event.target.value);
+        };
 
     const navigate = useNavigate();
 
@@ -25,7 +32,7 @@ export default function Registration(){
     }
 
     function handleSubmit(event){
-        if(formData.name==""||formData.email==""||formData.mobile==""||formData.college==""||formData.personalAddress==""||formData.college==""){
+        if(formData.name==""||formData.email==""||formData.mobile==""||formData.college==""||formData.college==""||formData.collegeAddress==""||selectedGender==""){
             alert("Please enter all details and submit.")
             return
         }
@@ -139,15 +146,19 @@ export default function Registration(){
                 />
                 
             </div>
-            <div>
-            <textarea
-                //type="text"
-                placeholder="Personal Address"
-                name="personalAddress"
-                value={formData.personalAddress}
-                onChange={handleChange}
-                rows={5}
-                />
+            <div className="rightside">
+
+               <div>
+            
+                  <select className="gender" id="gender" value={selectedGender} onChange={handleGenderChange}>
+                    <option value="">Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                  </select>
+                  </div>
+                 
+               <div className="clg">
                 <textarea
                 //type="text"
                 placeholder="College Address"
@@ -156,7 +167,8 @@ export default function Registration(){
                 onChange={handleChange}
                 rows={5}
                 
-                />  
+                
+                />  </div>
             </div>
         </div>
         <button as="Link" to="" onClick={()=>{handleSubmit()

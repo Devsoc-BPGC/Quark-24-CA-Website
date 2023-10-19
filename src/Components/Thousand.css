@@ -19,8 +19,8 @@
     padding-right: 0%;
     margin-left: 5%;
     margin-right: 5%;
-    width: 10%;
-    max-height: 15vh;
+    width: 15%;
+    height: 22.5vh;
 }
 
 .th .h1{
@@ -28,6 +28,7 @@
     margin-right: auto;
     padding-left: 0%;
     padding-right: 0%;
+    font-family: Helvetica;
 }
 
 .space{
@@ -37,11 +38,16 @@
     margin-right: 0%;
 }
 
+.thFont{
+    font-size: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 @media screen and (max-width:850px) {
     .th{
         flex-direction: column;
     }
-    .th img{
-        width: 6rem;
+    .imgg{
+        width: 8.5rem;
     }
 }

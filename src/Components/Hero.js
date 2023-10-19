@@ -10,7 +10,7 @@ export default function Hero(){
                 <a href="/register"><button className="hero-button">Apply Now</button></a>
             </div>
             <div className="sec-two">
-                <img src={groupofpeople} alt="group of people"/>
+                <img className="Groupp" src={groupofpeople} alt="group of people"/>
             </div>
         </section>
     )

@@ -9,12 +9,12 @@ export default function Th() {
 
       <img class="imgg" src={guy} alt="Guy" />
 
-      <h1>1000+</h1>
+      <h1 className="thFont">1000+</h1>
 
       <div className="space"></div>
 
       <img class="imgg" src={cap} alt="Cap" />
-      <h1>1000+</h1>
+      <h1 className="thFont">1000+</h1>
 
     </div>
 
