@@ -52,29 +52,13 @@ export default function Registration(){
         var ISTTime = new Date(date.getTime()+ISToffSet*60*1000);
     
     
-        // if (
-        //   formData.fullName !== "" && formData.email !== "" && formData.phone !== "" && formData.gender !== "" && formData.college !== "" && formData.city !== "" && formData.state !== "" && isTeamShowing
-        //     ? !team.slice(0, 2).some((eachMemberObj) => eachMemberObj.n === "")
-        //     : true && personName?.length !== 0
-        // ) {
-        //   if (!validator.isEmail(formData.email)) {
-        //     alert("Please Enter Your Email.");
-        //     return;
-        //   } else if (!validator.isMobilePhone(formData.phone, "en-IN")) {
-        //     alert("Please enter a valid phone number!");
-        //     return;
-        //   }
-
-    
-
-    
         let usr_data = {
             Submit_Time: ISTTime,
             Name: formData.name,
+            Gender: selectedGender,
             Email: formData.email,
             Mobile_No: formData.mobile,
             College_Name: formData.college,
-            Personal_Address:formData.personalAddress,
             College_Address:formData.collegeAddress,
         };
     
