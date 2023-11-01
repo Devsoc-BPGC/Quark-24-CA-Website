@@ -10,6 +10,7 @@ import Registration from './Components/Registration.js';
 import Thousand from './Components/Thousand.js'
 import WhoApply from './Components/WhoApply.js';
 import WithLove from './Components/WithLove.js';
+
 import React from "react";
 import {
   BrowserRouter as Router,

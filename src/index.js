@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Link, Routes, Route } from "react-router-dom";
 import Registration from "./Components/Registration"
+import Leaderboard from './Components/Leaderboard';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,6 +14,7 @@ root.render(
     <Routes>
       <Route path="/" element={<App/>}/>
       <Route path="/register" element={<Registration />} />
+      <Route path="/leaderboard" element={<Leaderboard />} />
     </Routes>
     
   </BrowserRouter>

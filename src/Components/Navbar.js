@@ -3,6 +3,7 @@ import "./Navbar.css"
 import { Link, useNavigate } from 'react-router-dom';
 import hamburger from './images/hamburger.png'
 import QuarkLogo from './images/QuarkLogo1.png';
+import Leaderboard from "./Leaderboard";
 
 export default function Navbar(){
     const [hamMenu, toggleHamMenu]=React.useState(false)
@@ -39,6 +40,11 @@ const navigate = useNavigate();
                  <img src={hamburger} style={{height:'1rem',width:'1rem'}}/>
             </div>
             <ul className={hamMenu?'ham-menu-active':(bigscreen?'ham-menu-inactive':'ham-menu-invisible')}>
+                            <div className={hamMenu?"hamCont":""}>
+                            <li>
+                                <a className="navbar-links" href="/leaderboard">Leaderboard</a>
+                            </li>
+                            </div>
                             <div className={hamMenu?"hamCont":""}>
                             <li>
                                 <a className="navbar-links" href="/#home">Home</a>
