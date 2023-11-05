@@ -1,0 +1,48 @@
+.basic{
+    
+    display: flex;
+    flex-direction: row;
+    padding-top: 1.5rem;
+    justify-content: center;
+
+}
+
+.college{   
+  margin-left: 5rem;
+  margin-right: 60rem;
+}
+
+.Profiles{
+    padding-top: 0rem;
+    
+    margin-left: 1.35rem;
+
+    position: absolute;
+    
+}
+
+.pts{
+    margin-left: 70rem;
+   position: absolute;
+    
+}
+
+.rank{
+    margin-left: 0rem;
+}
+
+.ptset{
+    position: absolute;
+    margin-left: 0rem;
+    
+}
+
+.finally{
+   margin-top: 3.48rem;
+   margin-right: 0;
+   font-weight: 500;
+}
+
+h1, b{
+    color: #730075;
+}

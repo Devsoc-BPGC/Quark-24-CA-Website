@@ -1,0 +1,22 @@
+.arr{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+}
+
+.info{
+    margin-left: 6.125rem;
+    font-weight: 600;
+    
+}
+
+.rankings{
+    margin-left:17.25rem;
+    color: #730075;
+    font-weight: 800;
+}
+
+.point{
+    margin-right: 0rem;
+    margin-left: 49.65rem;
+}
