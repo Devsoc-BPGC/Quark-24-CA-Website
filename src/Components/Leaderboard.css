@@ -10,6 +10,7 @@
 .college{   
   margin-left: 5rem;
   margin-right: 60rem;
+
 }
 
 .Profiles{
@@ -29,6 +30,7 @@
 
 .rank{
     margin-left: 0rem;
+    
 }
 
 .ptset{
@@ -43,6 +45,32 @@
    font-weight: 500;
 }
 
+.finally2{
+    margin-top: 3.48rem;
+    margin-right: 0rem;
+    margin-left: -0.3rem;
+    font-weight: 500;
+    z-index: -10;
+ }
+
+ .betterwork{
+    margin-top: 3.48rem;
+    margin-right: 0;
+    font-weight: 500;
+ }
+
+.move1{
+    margin-left: 1.15rem;
+    z-index: 2;
+}
+
+.move2{
+    z-index: 4;
+    margin-right: 1rem;
+}
+
+
 h1, b{
     color: #730075;
 }
+
