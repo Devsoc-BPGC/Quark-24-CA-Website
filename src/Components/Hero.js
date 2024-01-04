@@ -7,7 +7,7 @@ export default function Hero(){
         <section className="hero-section">
             <div className="section-one">
                 <h1 className="hero-h1">Quark’24 Campus Ambassador Program</h1>
-                <a href="/register"><button className="hero-button">Apply Now</button></a>
+                <a href="/leaderboard"><button className="hero-button">Leaderboard</button></a>
             </div>
             <div className="sec-two">
                 <img className="Groupp" src={groupofpeople} alt="group of people"/>
