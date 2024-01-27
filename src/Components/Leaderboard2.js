@@ -11,9 +11,9 @@ export default function Leaderboard(){
       </header>
 
         <div style={{display:'grid', gridTemplateColumns:'repeat(20, 1fr)', gridTemplateRows:'repeat(1, 1fr)', gridColumnGap:'0px', gridRowGap:'0px'}}>
-            <div style={{gridArea:'1 / 3 / 3 / 14', fontSize:'1.5rem', color:'#730075', fontWeight:'bold', borderBottom:'2px solid #730075', marginBottom:'1rem'}}>CA Name</div>
-            <div style={{gridArea:'1 / 14 / 3 / 17', fontSize:'1.5rem', color:'#730075', fontWeight:'bold', borderBottom:'2px solid #730075', marginBottom:'1rem'}}>Followers</div>
-            <div style={{gridArea:'1 / 17 / 3 / 19', fontSize:'1.5rem', color:'#730075', fontWeight:'bold', borderBottom:'2px solid #730075', marginBottom:'1rem'}}>Points</div>
+            <div style={{gridArea:'1 / 2 / 3 / 12', fontSize:'1.2rem', color:'#730075', fontWeight:'bold', borderBottom:'2px solid #730075', marginBottom:'1rem'}}>CA Name</div>
+            <div style={{gridArea:'1 / 12 / 3 / 17', fontSize:'1.2rem', color:'#730075', fontWeight:'bold', borderBottom:'2px solid #730075', marginBottom:'1rem'}}>Followers</div>
+            <div style={{gridArea:'1 / 17 / 3 / 20', fontSize:'1.2rem', color:'#730075', fontWeight:'bold', borderBottom:'2px solid #730075', marginBottom:'1rem'}}>Points</div>
         </div>
       
       <TableRow name="Wilbur perraira" followers="49" points="490" />
