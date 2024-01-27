@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import "./Leaderboard.css"
 import Profile from "./Profiles"
-// import data from "./database";
-// import {length} from "./database";
+ import data from "./database";
+ import {length} from "./database";
 
 
 
@@ -14,7 +14,7 @@ export default function Leader() {
   
 
    
-  const [tdata, setTdata] = useState([]);
+  const [tdata, setTdata] = useState([data]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -122,6 +122,5 @@ function namae( data ) {
         </div>
       ))
     )
-    }
+    } 
 
-  

@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Link, Routes, Route } from "react-router-dom";
 import Registration from "./Components/Registration"
-import Leaderboard from './Components/Leaderboard';
+import Leaderboard from './Components/Leaderboard2';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
